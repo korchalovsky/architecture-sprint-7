@@ -1,0 +1,20 @@
+apiVersion: networking.k8s.io/v1
+kind: User
+metadata:
+  name: Sergey
+spec:
+  email: example@gmail.com
+  password: "password"
+  groups:
+    - developers
+
+
+apiVersion: networking.k8s.io/v1
+kind: User
+metadata:
+  name: Anton
+spec:
+  email: example2@gmail.com
+  password: "password"
+  groups:
+    - business-analytics
